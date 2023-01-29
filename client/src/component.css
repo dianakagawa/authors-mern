@@ -1,0 +1,85 @@
+table,
+th {
+  border-collapse: collapse;
+  border: 2px solid black;
+  border-spacing: 0;
+}
+
+.StyledTable {
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+}
+
+.Actions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.StyledTable thead tr {
+  background-color: silver;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+}
+
+.StyledTable th,
+.StyledTable td {
+  padding: 15px;
+}
+
+.StyledTable tbody tr {
+  color: rebeccapurple;
+}
+
+.StyledTable tbody tr:nth-of-type(even) {
+  background-color: silver;
+}
+
+.Btn {
+  min-width: 6rem;
+  background-color: darkgray;
+  background-image: linear-gradient(rgb(238, 220, 220), #5a5a5a);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.blue {
+  background-color: rgb(40, 161, 218);
+  background-image: none;
+  margin-right: 10px;
+  font-size: 1rem;
+}
+
+.Container {
+  margin: 0 auto;
+  align-items: center;
+  width: 400px;
+  background-color: #f2f2f2;
+  padding: 15px 0;
+}
+
+.Form {
+  max-width: 20rem;
+  padding: 15px;
+  border: 1px solid silver;
+}
+
+.Form label,
+input {
+  display: block;
+  margin: 10px 0;
+}
+
+.Form input {
+  width: 80%;
+  padding: 8px;
+  border: 1px solid silver;
+}
